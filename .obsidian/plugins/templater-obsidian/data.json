@@ -15,7 +15,7 @@
   "enable_folder_templates": true,
   "folder_templates": [
     {
-      "folder": "sources/_posts/",
+      "folder": "source/_posts/",
       "template": "Templates/Hexo_Post.md"
     }
   ],

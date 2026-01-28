@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "b8b781ff99fa4ff8",
+        "id": "44e594c0d77f3ed2",
         "type": "tabs",
         "children": [
           {
-            "id": "263910d0953dd7f0",
+            "id": "06bf7c8acd1c31d8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "source/_posts/test1.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "test1"
+              "title": "新标签页"
             }
           }
         ]
@@ -185,9 +181,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "263910d0953dd7f0",
+  "active": "69885d3e96020b13",
   "lastOpenFiles": [
     "source/_posts/test2.md",
+    "source/_posts/未命名.md",
     "source/_posts/test1.md",
     "source/_posts/hello-world.md",
     "Templates/Hexo_Post.md",
