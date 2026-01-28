@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "source/_posts/test1.md",
+                "file": "Templates/Hexo_Post.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "test1"
+              "title": "Hexo_Post"
             }
           }
         ]
@@ -187,8 +187,8 @@
   },
   "active": "263910d0953dd7f0",
   "lastOpenFiles": [
-    "source/_posts/hello-world.md",
     "source/_posts/test1.md",
+    "source/_posts/hello-world.md",
     "Templates/Hexo_Post.md",
     "Templates",
     "source/_drafts/首次亮相.md",
