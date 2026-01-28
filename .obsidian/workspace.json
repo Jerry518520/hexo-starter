@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "source/_posts/hello-world.md",
+                "file": "source/_posts/未命名.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "hello-world"
+              "title": "未命名"
             }
           }
         ]
@@ -187,8 +187,8 @@
   },
   "active": "06bf7c8acd1c31d8",
   "lastOpenFiles": [
-    "source/_posts/未命名.md",
     "source/_posts/hello-world.md",
+    "source/_posts/未命名.md",
     "source/_posts/未命名 1.md",
     "未命名.md",
     "source/_posts/test2.md",
