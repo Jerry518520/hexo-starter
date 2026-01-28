@@ -5,5 +5,3 @@ tags: []
 categories: []
 index_img: 
 ---
-
-<% tp.file.cursor() %>
