@@ -1,6 +1,6 @@
 ---
 title: 从零开始：我如何用 Hexo + Vercel + Obsidian 打造全自动化博客
-date: 2026-01-29 00:00:00
+date: 2026-01-28 00:00:00
 tags:
   - Hexo
   - Vercel

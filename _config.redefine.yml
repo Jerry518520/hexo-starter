@@ -41,7 +41,7 @@ navbar:
     right: "#A31F34"
     transparency: 35
   links:
-    首页:
+    Home:
       path: /
       icon: fa-solid fa-house
     归档:
