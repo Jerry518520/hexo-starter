@@ -117,16 +117,16 @@ global:
 comment:
   enable: true # 是否开启评论
   system: giscus # 选用的评论系统 (waline, gitalk, twikoo, giscus)
-  config:
-    giscus:
-      repo: Jerry518520/hexo-starter # 你的仓库名
-      repo_id: R_kgDORCjd3A # 填入你提供的 ID
-      category: Announcements # 填入你选择的分类
-      category_id: DIC_kwDORCjd3M4C1mLA # 填入你提供的 ID
-      mapping: pathname
-      strict: 0
-      reactions_enabled: 1
-      emit_metadata: 0
-      lang: zh-CN
-      input_position: bottom
-      loading: lazy
+  
+  giscus:
+    repo: Jerry518520/hexo-starter # 你的仓库名
+    repo_id: R_kgDORCjd3A # 填入你提供的 ID
+    category: Announcements # 填入你选择的分类
+    category_id: DIC_kwDORCjd3M4C1mLA # 填入你提供的 ID
+    mapping: pathname
+    strict: 0
+    reactions_enabled: 1
+    emit_metadata: 0
+    lang: zh-CN
+    input_position: bottom
+    loading: lazy
