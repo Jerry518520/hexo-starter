@@ -1,7 +1,7 @@
 ---
 title: 从零开始：我如何用 Hexo + Vercel + Obsidian 打造全自动化博客
 slug: hexo-vercel-obsidian-automation
-date: 2026-01-28 00:00:00
+date: 2026-01-29 00:00:00
 tags:
   - Hexo
   - Vercel
@@ -108,7 +108,19 @@ cover: /images/MYSTART.png
 默认的 Landscape 主题实在太复古了。我通过修改 `_config.yml` 引入了 `hexo-theme-redefine。
 Redefine 给我的第一印象是**克制**。它没有满屏乱飞的特效，而是把功夫下在了排版和微交互上。 配置过程也非常顺滑，我只需要在配置文件里简单调整，就实现了带有磨砂效果的导航栏、沉浸式的 Hero 封面以及非常护眼的夜间模式。这种“开箱即用”的高颜值，让我能把更多时间花在写代码而不是写 CSS 上。
 
----
+## 4. 交互升级：让静态博客拥有灵魂
+
+静态博客最大的痛点就是**没有数据库**，无法原生支持评论。
+### 最终选择：Giscus
+我最终选择了 **[Giscus](https://giscus.app/)**。
+它利用 **GitHub Discussions** 来存储评论数据。这是一个天才的设计：
+* **0 成本：** 借用 GitHub 的服务器，完全免费。
+* **0 数据库：** 不需要维护 MySQL 或 MongoDB。
+* **极其安全：** 只有拥有 GitHub 账号的开发者才能评论，天然过滤掉了垃圾广告。
+
+
+现在，每一条在博客下的留言，都会自动同步到我的 GitHub 仓库 Discussions 列表中。
+---------
 
 ##  核心黑科技：Obsidian 全自动化工作流
 

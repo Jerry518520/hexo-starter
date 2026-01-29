@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "source/_posts/如何上线一个完整的项目.md",
+                "file": "source/_posts/从零开始：我如何用 Hexo + Vercel + Obsidian 打造全自动化博客.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "如何上线一个完整的项目"
+              "title": "从零开始：我如何用 Hexo + Vercel + Obsidian 打造全自动化博客"
             }
           }
         ]
@@ -187,13 +187,13 @@
   },
   "active": "61cc9133ec6c00c5",
   "lastOpenFiles": [
+    "source/_posts/如何上线一个完整的项目.md",
     "db.json",
     "source/about/index.md",
     "source/about",
     "source/guestbook/index.md",
     "source/guestbook",
     "source/_posts/从零开始：我如何用 Hexo + Vercel + Obsidian 打造全自动化博客.md",
-    "source/_posts/如何上线一个完整的项目.md",
     "public/images/MYSTART.png",
     "public/webfonts/fa-duotone-900.ttf",
     "public/webfonts/fa-thin-100.ttf",
