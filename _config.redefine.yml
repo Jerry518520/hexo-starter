@@ -95,9 +95,9 @@ footer:
 
 # 全局设置
 global:
-  single_page: false # 禁用单页加载，解决返回键失效和跳转错误
+  single_page: true # 开启单页加载，提升速度
   preloader:
-    enable: true # 开启加载动画
+    enable: false # 关闭加载动画
     custom_message: "Latentice's Blog"
   website_counter:
     enable: true # 开启访问人数统计
