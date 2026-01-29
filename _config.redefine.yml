@@ -97,7 +97,7 @@ footer:
 global:
   single_page: true # 开启单页加载，提升速度
   preloader:
-    enable: false # 关闭加载动画
+    enable: true # 关闭加载动画
     custom_message: "Latentice's Blog"
   website_counter:
     enable: true # 开启访问人数统计
@@ -118,15 +118,16 @@ comment:
   enable: true # 是否开启评论
   system: giscus # 选用的评论系统 (waline, gitalk, twikoo, giscus)
   
-  giscus:
-    repo: Jerry518520/hexo-starter # 你的仓库名
-    repo_id: R_kgDORCjd3A # 填入你提供的 ID
-    category: Announcements # 填入你选择的分类
-    category_id: DIC_kwDORCjd3M4C1mLA # 填入你提供的 ID
-    mapping: pathname
-    strict: 0
-    reactions_enabled: 1
-    emit_metadata: 0
-    lang: zh-CN
-    input_position: bottom
-    loading: lazy
+  config:
+    giscus:
+      repo: Jerry518520/hexo-starter # 你的仓库名
+      repo_id: R_kgDORCjd3A # 填入你提供的 ID
+      category: Announcements # 填入你选择的分类
+      category_id: DIC_kwDORCjd3M4C1mLA # 填入你提供的 ID
+      mapping: pathname
+      strict: 0
+      reactions_enabled: 1
+      emit_metadata: 0
+      lang: zh-CN
+      input_position: bottom
+      loading: lazy
