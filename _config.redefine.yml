@@ -1,0 +1,132 @@
+# THEME REDEFINE CUSTOM CONFIGURATION
+# 官方文档: https://redefine-docs.ohevan.com
+
+# 基本信息
+info:
+  title: Latentice's Blog
+  subtitle: 一个基于Hexo的个人博客
+  author: Jerry Lee
+  url: https://latentice.tech
+
+# 图片设置 (可以后续替换为你自己的图片路径)
+defaults:
+  favicon: /images/favicon.svg
+  logo: /images/logo.png
+  avatar: /images/avatar.png
+
+# 首页大图 (Home Banner)
+home_banner:
+  enable: true
+  image:
+    light: /images/wallhaven-wqery6-light.webp
+    dark: /images/wallhaven-wqery6-dark.webp
+  title: 无限进步
+  subtitle:
+    text: ["记录学习过程", "分享项目经验", ] # 这里可以换成你自己的标语
+    typing_speed: 200
+    loop: true
+  social_links:
+    enable: true
+    links:
+      github: https://github.com/Jerry518520
+      email: jerrylbj@foxmail.com      
+
+# 导航栏菜单 (迁移至 navbar.links)
+
+# 导航栏设置
+navbar:
+  auto_hide: false
+  color:
+    left: "#A31F34"
+    right: "#A31F34"
+    transparency: 35
+  links:
+    首页:
+      path: /
+      icon: fa-solid fa-house
+    归档:
+      path: /archives
+      icon: fa-solid fa-archive
+    留言板:
+      path: /guestbook
+      icon: fa-solid fa-comment
+    关于:
+      path: /about
+      icon: fa-solid fa-user
+  search:
+    enable: true # 开启搜索
+    preload: true
+  conf:
+    logo: /images/logo.png
+    title: Latentice's Blog
+    display_title: true
+    horizontal_column: true
+    menu_type: plain
+
+# 文章设置
+articles:
+  style:
+    font_size: 16px
+    line_height: 1.5
+    image_border_radius: 14px
+  word_count:
+    enable: true # 开启字数统计
+    count: true
+    min2read: true
+  copyright:
+    enable: true # 开启版权声明
+    default: cc_by_nc_sa
+    articles:
+  author_label:
+    enable: true
+    auto: false # 关闭自动升级
+    list: ["博主"] # 这里填你想显示的文字
+
+# 颜色设置
+colors:
+  primary: "#A31F34" # 主题色
+
+# 底部设置
+footer:
+  runtime: true # 是否显示运行时间
+  start: 2026/01/29 00:00:00 # 网站开始运行的时间
+  statistics: true # 是否显示网站统计 (总文章数、总字数)
+  icon: '<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>'
+
+# 全局设置
+global:
+  single_page: false # 禁用单页加载，解决返回键失效和跳转错误
+  preloader:
+    enable: true # 开启加载动画
+    custom_message: "Latentice's Blog"
+  website_counter:
+    enable: true # 开启访问人数统计
+    site_pv: true
+    site_uv: true
+    post_pv: true
+  fonts:
+    chinese:
+      enable: false
+    english:
+      enable: false
+  scroll_progress:
+    bar: true
+    percentage: true
+
+# 评论设置
+comment:
+  enable: true # 是否开启评论
+  system: giscus # 选用的评论系统 (waline, gitalk, twikoo, giscus)
+  config:
+    giscus:
+      repo: Jerry518520/hexo-starter # 你的仓库名
+      repo_id: R_kgDORCjd3A # 填入你提供的 ID
+      category: Announcements # 填入你选择的分类
+      category_id: DIC_kwDORCjd3M4C1mLA # 填入你提供的 ID
+      mapping: pathname
+      strict: 0
+      reactions_enabled: 1
+      emit_metadata: 0
+      lang: zh-CN
+      input_position: bottom
+      loading: lazy

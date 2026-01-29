@@ -13,11 +13,19 @@ timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://latentice.tech
+url: https://latentice.tech
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
+  trailing_html: true # Set to false to remove trailing '.html' from permalinks
+
+# Search
+search:
+  path: search.xml
+  field: post
+  content: true
+  format: html
   trailing_html: true # Set to false to remove trailing '.html' from permalinks
 
 # Directory
@@ -96,7 +104,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: fluid
+theme: redefine
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
