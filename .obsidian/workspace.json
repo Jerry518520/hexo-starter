@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "source/_posts/从零开始：我如何用 Hexo + Vercel + Obsidian 打造全自动化博客.md",
+                "file": "source/_posts/为什么我要ALL IN AI？.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "从零开始：我如何用 Hexo + Vercel + Obsidian 打造全自动化博客"
+              "title": "为什么我要ALL IN AI？"
             }
           }
         ]
@@ -74,7 +74,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -187,8 +188,11 @@
   },
   "active": "61cc9133ec6c00c5",
   "lastOpenFiles": [
-    "source/_posts/如何上线一个完整的项目.md",
+    "source/images/cover26013001.png",
     "source/_posts/从零开始：我如何用 Hexo + Vercel + Obsidian 打造全自动化博客.md",
+    "Templates/Hexo_Post.md",
+    "source/_posts/为什么我要ALL IN AI？.md",
+    "source/_posts/如何上线一个完整的项目.md",
     "db.json",
     "public/images/MYSTART.png",
     "public/webfonts/fa-duotone-900.ttf",
@@ -223,7 +227,6 @@
     "node_modules/hexo-theme-redefine/CODE_OF_CONDUCT.md",
     "source/_posts/test1.md",
     "source/_posts/hello-world.md",
-    "Templates/Hexo_Post.md",
     "source/_posts/未命名 1.md",
     "未命名.md",
     "source/_posts/test2.md",

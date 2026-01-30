@@ -136,7 +136,7 @@ Hexo 的文章需要一个 YAML 头部（Front-matter）来记录标题、时间
 title: <% tp.file.title %>
 date: <% tp.file.creation_date("YYYY-MM-DD HH:mm:ss") %>
 tags: []
-index_img: 
+cover: 
 ---
 ```
 ### 2. PicGo + Image Auto Upload：图片瞬移术
