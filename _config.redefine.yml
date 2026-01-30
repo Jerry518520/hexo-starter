@@ -90,9 +90,42 @@ colors:
 footer:
   runtime: true # 是否显示运行时间
   start: 2026/01/29 00:00:00 # 网站开始运行的时间
-  statistics: true # 是否显示网站统计 (总文章数、总字数)
+  statistics: true # 是否显示网站统计 (总文章数、总字数)  
   icon: '<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>'
 
+plugins:
+  mermaid:
+    enable: true
+    version: "11.4.1"
+
+inject:
+  enable: true
+  head:
+    - |
+      <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [['$','$'], ['\\(','\\)']],
+          displayMath: [['$$','$$']],
+          processEscapes: true
+        }
+      });
+      </script>
+    - <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+  footer:
+    - |
+      <script>
+      try {
+        if (window.swup) {
+          swup.hooks.on('page:view', function () {
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+          });
+        }
+      } catch (e) {}
+      document.addEventListener('swup:contentReplaced', function () {
+        MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+      });
+      </script>
 # 全局设置
 global:
   single_page: true # 开启单页加载，提升速度

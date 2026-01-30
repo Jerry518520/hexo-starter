@@ -12,7 +12,7 @@ tags:
 categories:
   - 技术闲聊
 cover: /images/cover26013001.png
-mathjax: "true"
+mathjax: true
 ---
 
 ### 直接说结论：**在 2026 年还要死磕 Java 后端，就是典型的“49年入国军”。**

@@ -107,6 +107,14 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: redefine
 
+mathjax:
+  tags: none
+  single_dollars: true
+  cjk_width: 0.9
+  normal_width: 0.6
+  append_css: true
+  every_page: false
+
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
